@@ -82,6 +82,7 @@ export function stringToTokens(
 export function tokensToAST(tokens: ReadonlyArray<Token>): ASTNode[];
 
 export interface MarkdownProps {
+  children: ReactNode;
   rules?: RenderRules;
   style?: StyleSheet.NamedStyles<any>;
   renderer?: AstRenderer;
